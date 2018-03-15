@@ -9,6 +9,7 @@ var routes = require('./components/router');
 
 router.get('*', function (req, res, next) {
   var props = { title: 'My Title' };
+  // banco de dados
   routing(req,res,props,next);
 });
 
